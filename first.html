@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css cdn link  and fonts link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+    <link rel="stylesheet" href="fonts.css">
 
+    <!-- linking remix-icon cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- linking the css file : first.css  -->
+    <link rel="stylesheet" href="css/first.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="inner-container-1">
+                <a href="#" class="logo-container">
+                    <div class="logo-img-container">
+                        <img src="./images/Icon.png" alt="logo">
+                    </div>
+                    <h2>TechBuild</h2>
+                </a>
+                    
+            </div>
+            <div class="inner-container-2">
+                <input type="text" name="" id="" placeholder="Search for CPUs, GPUs, or Components">
+                <button><i class="ri-search-line"></i></button>
+            </div>
+            <div class="inner-container-3">
+                <button>
+                  <div class="inner-btn-cont-1">
+                    <img src="./images/screw-driver.png" alt="">
+                  </div>
+                  <div class="inner-btn-cont-2">
+                    <span>Build Your PC</span>
+                  </div>
+                </button>
+                <i class="ri-shopping-cart-2-line header-icon"></i>
+                <i class="ri-user-line header-icon"></i>
+            </div>
+
+        </div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#"> <i class="ri-gallery-view-2 nav-icon"></i> Components</a></li>
+                <li><a href="#"> <i class="ri-device-line nav-icon"></i> Pheripherals</a></li>
+                <li><a href="#"> <i class="ri-network-line nav-icon"></i> Networking</a></li>
+                <li><a href="#"> <i class="ri-macbook-line nav-icon"></i> Laptops</a></li>
+                <li><a href="#"> <i class="ri-percent-line nav-icon"></i> Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero-split-section">
+                <div class="left-container">
+                    <div class="left-sub-cont-1">
+                        <div class="capsule">
+                            <i class="ri-circle-fill"></i>
+                            <h3>New Arrival</h3>
+                        </div>
+                    </div>
+                    <div class="left-sub-cont-2">
+                        <h2 class="first-text">Next-Gen <br> Performance.</h2>
+                        <h2 class="second-text"><span>RTX 4090 series.</span></h2>
+                    </div>
+                    <div class="left-sub-cont-3">
+                        <p>Experience the ultimate gaming performance with the RTX 4090 series. Powered by NVIDIA's latest architecture, these graphics cards deliver unparalleled speed and realism for an immersive gaming experience. Whether you're a hardcore gamer or a content creator, the RTX 4090 series is designed to elevate your performance to new heights.
+                        </p>
+                    </div>
+                    <div class="left-sub-cont-4">
+                       <button class="btn-1"> <span>Shop Series 4000</span><i class="ri-arrow-right-long-line btn-icon"></i></button>
+                       <button class="btn-2"> <i class="ri-tools-line btn-icon"></i> <span>Start Custom Build</span></button>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <img src="./images/hero-section-img.png" alt="img">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
