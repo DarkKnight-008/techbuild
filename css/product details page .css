@@ -19,9 +19,11 @@ body {
 .breadcrumb {
   margin-bottom: 1.5rem;
   color: #64748b;
+  padding-left: 1rem;
 }
 
 .breadcrumb .active {
+
   font-weight: 600;
   color: #1e293b;
 }
@@ -30,6 +32,7 @@ body {
 .product-container {
   display: flex;
   gap: 2rem;
+  padding: 0rem 2rem;
 }
 
 /* LEFT */
@@ -39,8 +42,10 @@ body {
 
 .main-image {
   background: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-image img {
@@ -77,10 +82,12 @@ body {
 }
 
 .rating {
-  color: #facc15;
   margin-bottom: 1rem;
 }
 
+.rating span i{
+  color: gold;
+}
 .rating span {
   color: #64748b;
   margin-left: 10px;
@@ -153,7 +160,21 @@ body {
 
 
 /* SECTION TITLE */
+.spec-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  /* padding: 0rem 10rem; */
+}
+.spec-container{
+  width: 70%;
+  /* background-color: #3b82f6; */
+}
 .spec-section h2 {
+  /* align-self: flex-start; */
+  /* background-color: black; */
   font-size: 20px;
   font-weight: 600;
   color: #1e293b;
@@ -166,12 +187,17 @@ body {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid #e2e8f0;
+  width: 100%;
 }
-
+.tabs{
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
 /* EACH ROW */
 .table div {
   display: grid;
-  grid-template-columns: 10fr 70fr;
+  grid-template-columns: 10fr 50fr;
   padding: 1rem 1.5rem;
   align-items: center;
   border-bottom: 1px solid #e2e8f0;
