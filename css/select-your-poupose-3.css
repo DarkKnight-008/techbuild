@@ -149,6 +149,7 @@ body {
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
+  padding: 1rem 1rem;
 }
 
 .table div {
