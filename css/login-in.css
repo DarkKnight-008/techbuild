@@ -94,7 +94,10 @@ h1 {
 .input-icon {
   position: absolute;
   right: 1.25rem;
-  top: 0.75rem;
+  top: 1rem;
+}
+#lock_icon{
+  cursor: pointer;
 }
 
 /* remember section */
@@ -201,10 +204,12 @@ h1 {
 /* links */
 a {
   transition: 0.3s ease;
+ 
 }
 
 a:hover {
   color: #00f5ff;
+
 
   text-shadow:
     0 0 5px #00f5ff,
