@@ -1,14 +1,9 @@
-const lock_icon = document.querySelector("#lock_icon");
-const lock_input = document.querySelector("#lock_input");
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
 
-lock_icon.addEventListener("click", () => {
-    if (lock_input.type === "password") 
-    {
-        lock_input.type = "text";
-        lock_icon.className = "ri-lock-unlock-line input-icon";
-    } else {
-        lock_input.type = "password";
-        lock_icon.className = "ri-lock-fill input-icon";
-    }
-
-});
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+            // Optional: toggle hamburger to X
+            hamburger.querySelector('i').classList.toggle('ri-close-line');
+            hamburger.querySelector('i').classList.toggle('ri-menu-line');
+        });
