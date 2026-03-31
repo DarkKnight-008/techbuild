@@ -8,6 +8,8 @@ hamburger.addEventListener('click', () => {
     hamburger.querySelector('i').classList.toggle('ri-menu-line');
 });
 
+
+
 // Slider elements
 const slider = document.querySelector('.slider');
 const navlink = document.querySelector('.navlink'); // button/link to open slider
@@ -99,3 +101,10 @@ document.addEventListener('mouseout', (e) => {
         document.body.classList.remove('hide-cursor');
     }
 });
+
+
+
+
+
+
+
